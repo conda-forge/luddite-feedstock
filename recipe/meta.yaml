@@ -1,5 +1,5 @@
 {% set name = "luddite" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/luddite-{{ version }}.tar.gz
-  sha256: c31ffdb2644062253c8b33087bbf1cee007fe4590bb7de513b290861f7a26cf5
+  sha256: e05001efc80eb6c1c7514439812fbc71a66d59e031e09f9a72772f3e6cddfab7
 
 build:
   entry_points:
